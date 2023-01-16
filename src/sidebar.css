@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+   
+}
+.sidebar_header
+{
+    box-sizing: border-box;
+    margin: 3rem 1.5rem;
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+    
+}
+.chatOut 
+{
+    position: relative;
+   
+   
+  
+}
+.chatOut:hover .dropdown
+{
+    display:flex; 
+    z-index: 99;
+}
+.chatin
+{
+     position: relative;
+     display:flex; 
+  
+}
+.chatin:hover .dropdown
+{
+    display: flex;
+   z-index: 99;
+}
+.dropdown
+{
+       display: none;
+       position: absolute;
+       background-color:cornsilk;
+       box-shadow: -1px 4px 20px -6px #000;
+       padding: 0.5rem 1rem;
+       bottom: 60%;
+       left: -70%;
+       border-radius: 5px;
+      
+}
+.set{
+
+    position: absolute;
+    z-index: 99;
+    padding: 0.1rem 2rem;
+    bottom: 360px;
+    left: -160%;
+    border-radius: 5px;
+    display: flex;
+    
+}
+.sidebar_footer
+{
+     box-sizing: border-box;
+     flex-direction: column;
+      margin: 3rem 0rem;
+      display: flex;
+      position: absolute;
+       bottom:0px;
+}
+@media  screen and (max-width:1250px) {
+    .sidebar_footer {
+        margin-top: 20rem;
+    }
+}

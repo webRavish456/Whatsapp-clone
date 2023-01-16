@@ -1,0 +1,60 @@
+*{
+    margin:0;
+}
+.chat
+{
+    
+    height:39rem;
+  
+}
+
+@media only screen and (max-height:631px)
+{
+    .chat {
+       height:39rem;
+    }
+}
+@media only screen and (min-height:634px)
+{
+    .chat {
+       height:44.8rem;
+    }
+}
+
+@media only screen and (min-height:840px)
+{
+    .chat {
+       height:52rem;
+    }
+}
+@media only screen and (min-height:1261px )
+{
+    .chat {
+       height:78rem;
+    }
+}
+
+.chat_footer
+{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.chat_footer svg
+{
+    padding:10px;
+    color:gray;
+}
+.chat_footer form{
+    flex:1;
+
+}
+.chat_footer form input[type='text'] {
+    border:0;
+    height:40px;
+    outline:0;
+    width:100%;
+    border-radius: 5px;
+  
+}
+
